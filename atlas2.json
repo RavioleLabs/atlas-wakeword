@@ -4,10 +4,12 @@
   "author": "Olympe",
   "website": "https://github.com/RavioleLabs/atlas-wakeword",
   "model": "atlas2.tflite",
-  "trained_languages": ["fr"],
-  "version": 2,
+  "trained_languages": [
+    "fr"
+  ],
+  "version": 3,
   "micro": {
-    "probability_cutoff": 0.7,
+    "probability_cutoff": 0.91,
     "sliding_window_size": 5,
     "feature_step_size": 10,
     "tensor_arena_size": 37000,
