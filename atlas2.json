@@ -7,7 +7,7 @@
   "trained_languages": [
     "fr"
   ],
-  "version": 3,
+  "version": 2,
   "micro": {
     "probability_cutoff": 0.91,
     "sliding_window_size": 5,
